@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const S = {
     Section: styled.section`
+        flex: 1;
         display: flex;
         background-color: #8dbce7;
         width: 100vw;

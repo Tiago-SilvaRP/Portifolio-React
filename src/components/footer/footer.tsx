@@ -1,8 +1,9 @@
-import { ListIcons } from "../list-icons/list-icons"
+import { ListIcons } from "../list-icons/list-icons";
+import { S } from "./footer.style";
 
 export const Footer = () => {
     return (
-        <footer>
+        <S.Footer>
             <h3>Me envie uma mensagem</h3>
             <p>
                 Email:
@@ -12,6 +13,6 @@ export const Footer = () => {
             </p>
 
             <ListIcons />
-        </footer>
+        </S.Footer>
     )
 }
