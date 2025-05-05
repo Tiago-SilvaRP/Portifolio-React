@@ -20,7 +20,7 @@ export const S = {
         position: relative;
     `,
 
-    Logo: styled.a`
+    Logo: styled(Link)`
         border: solid 1px;
         border-radius: 50%;
         padding: 5px;

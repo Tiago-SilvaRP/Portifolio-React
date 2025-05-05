@@ -18,14 +18,14 @@ export const Header: React.FC = () => {
 
     return (
         <S.HeaderContainer>
-            <S.Logo target="_blank" href={CV}>
+            <S.Logo target="_blank" to={CV}>
                 <h2>TS</h2>
             </S.Logo>
             <div ref={menuRef}>
                 <S.Nav $ativo={menuAberto} aria-expanded={menuAberto}>
                     <S.Ul onClick={handleItemClick}>
                         <li><S.Ancora to= "/" >Inicio</S.Ancora></li>
-                        <li><S.Ancora  to="/sobre-mim">Sobre Mim</S.Ancora></li>
+                        <li><S.Ancora to="/sobre-mim">Sobre Mim</S.Ancora></li>
                         <li><S.Ancora to='/habilidades' >Habilidades</S.Ancora></li>
                         <li><S.Ancora to="projetos">Projetos</S.Ancora></li>
                         <li><S.Ancora to="contatos" >Contato</S.Ancora></li>
