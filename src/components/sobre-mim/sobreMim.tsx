@@ -30,9 +30,9 @@ export const SobreMim = () => {
                         feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já
                         aprendi. 😁
                     </p>
-                    <div>
-                    </div>
-                    <a href={CV} target="_blank">Veja meu CV</a>
+                    <S.Botao>
+                    <S.Link to={CV} target="_blank">Veja meu CV</S.Link>
+                    </S.Botao>
                 </S.DivText>
             </S.Main>
         </S.Sobre>

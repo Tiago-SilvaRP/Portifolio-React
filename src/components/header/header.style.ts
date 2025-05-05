@@ -18,6 +18,7 @@ export const S = {
         background-color: gray;
         padding: 15px;
         position: relative;
+        padding: 15px 18%;
     `,
 
     Logo: styled(Link)`
