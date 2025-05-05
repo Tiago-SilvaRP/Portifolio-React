@@ -24,9 +24,11 @@ export const Home = () => {
 
             </S.TextoHome>
 
-            <S.divImag>
-                <S.Img src={FotoPerfil} alt="Foto de perfil de Tiago Silva" />
-            </S.divImag>
+            <S.DivImag>
+                <S.DivImgInner>
+                    <S.Img src={FotoPerfil} alt="Foto de perfil de Tiago Silva" />
+                </S.DivImgInner>
+            </S.DivImag>
         </S.Section >
     )
 }

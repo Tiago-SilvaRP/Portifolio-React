@@ -72,19 +72,25 @@ export const S = {
         }
     `,
 
-    divImag: styled.div`
+    DivImag: styled.div`
         margin: 30px;
         max-width: 450px;
         background: radial-gradient(circle, #000, violet);
         border-radius: 50%;
-        box-shadow: 3px 3px 3px #000;
+        box-shadow: 3px 3px 3px;
         flex: 0 0 50%;
     `,
+
+    DivImgInner: styled.div`
+        max-width: 450px;
+        border-radius: 50%;
+        box-shadow: inset 3px 3px 3px;
+    `,
+
 
     Img: styled.img`
         width: 100%;
         border-radius: 50%;
-        border: 8px solid transparent;
-        box-shadow: inset 3px 3px 3px #000;
+        border: solid transparent 10px;
     `
 }
