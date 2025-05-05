@@ -18,9 +18,9 @@ export const Header: React.FC = () => {
 
     return (
         <S.HeaderContainer>
-            <a target="_blank" href={CV}>
+            <S.Logo target="_blank" href={CV}>
                 <h2>TS</h2>
-            </a>
+            </S.Logo>
             <div ref={menuRef}>
                 <S.Nav $ativo={menuAberto} aria-expanded={menuAberto}>
                     <S.Ul onClick={handleItemClick}>

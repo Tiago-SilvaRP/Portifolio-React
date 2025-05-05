@@ -19,6 +19,16 @@ export const S = {
         position: relative;
     `,
 
+    Logo: styled.a`
+        border: solid 1px;
+        border-radius: 50%;
+        padding: 5px;
+
+        &:hover {
+            color: red;
+        }
+    `,
+
     Nav: styled.nav<NavProps>`
         @media (max-width: 768px) {
             opacity: ${({ $ativo }) => ($ativo ? 1 : 0)};
