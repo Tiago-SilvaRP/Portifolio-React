@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Button } from "../button/button";
+import { Link } from "react-router-dom";
 
 interface NavProps{
     $ativo: boolean;
@@ -59,7 +60,7 @@ export const S = {
         }
     `,
 
-    Ancora: styled.a`
+    Ancora: styled(Link)`
         color: #000;
         display: flex;
 

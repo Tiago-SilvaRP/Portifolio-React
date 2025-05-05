@@ -1,13 +1,9 @@
-import { Header } from './components/header/header'
-import { Home } from './components/home/home'
-import { Footer } from './components/footer/footer'
+import { AppRoutes } from './pages/routes'
 
 function App() {
   return (
     <>
-    <Header />
-    <Home />
-    <Footer />
+    <AppRoutes />
     </>
   )
 }
