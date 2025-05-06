@@ -63,15 +63,6 @@ export const S = {
         margin-bottom: 10px;
     `,
 
-    UlIcons: styled.ul`
-        display: flex;
-        gap: 15px;
-
-        li a {
-            font-size: 30px;
-        }
-    `,
-
     DivImag: styled.div`
         margin: 30px;
         max-width: 450px;
@@ -82,15 +73,15 @@ export const S = {
     `,
 
     DivImgInner: styled.div`
-        max-width: 450px;
+        width: 450px;
         border-radius: 50%;
         box-shadow: inset 3px 3px 3px;
     `,
 
 
     Img: styled.img`
-        width: 100%;
+        max-width: 100%;
         border-radius: 50%;
-        border: solid transparent 10px;
-    `
+        border: solid transparent 10px;  
+        `
 }
