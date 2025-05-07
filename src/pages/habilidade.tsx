@@ -1,7 +1,7 @@
-import { Habilidades } from "../components/habilidades/habilidades"
+import { Abilities } from "../components/skills/skills"
 
-export const Habilites = () => {
+export const Habilidades = () => {
     return (
-        <Habilidades />
+        <Abilities />
     )
 }

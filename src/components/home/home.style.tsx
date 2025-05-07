@@ -1,4 +1,18 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const LeftTextInput = keyframes`
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(20px);
+    }
+    to {
+        transform: translateX(0);
+    }
+`;
 
 export const S = {
     Section: styled.section`
@@ -18,7 +32,7 @@ export const S = {
         margin: 20px;
         padding: 20px;
         text-align: center;
-        animation: leftTextInput 1.5s ease-in-out;
+        animation: ${LeftTextInput} 1.5s ease-in-out;
 
         p {
             font-size: 18px;
@@ -38,21 +52,6 @@ export const S = {
             font-weight: 500;
             margin-bottom: 15px;
             color: #333;
-        }
-
-        @keyframes leftTextInput {
-            from {
-                opacity: 0;
-                transform: translateX(-100%);
-            }
-            50% {
-                opacity: 1;
-                transform: translateX(20px);
-            }
-                to {
-                opacity: 1;
-                transform: translateX(0);
-            }
         }
     `,
 

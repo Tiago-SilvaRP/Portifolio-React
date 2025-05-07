@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { LeftTextInput, RightTextInput } from "../animations/animations.style";
 
 export const S = {
     Sobre: styled.section`
@@ -13,7 +14,7 @@ export const S = {
     h2 {
         text-align: center;
         margin-top: 30px;
-        animation: rightTextInput 1.5s ease-in-out;
+        animation: ${LeftTextInput} 1.5s ease-in-out;
 
     }
     `,
@@ -48,25 +49,10 @@ export const S = {
 
     DivText: styled.div`
         max-width: 600px;
-        animation: rightTextInput 1.5s ease-in-out;
+        animation: ${RightTextInput} 1.5s ease-in-out;
 
         p{
             font-size: 19px;
-        }
-
-        @keyframes rightTextInput {
-            from {
-                opacity: 0;
-                transform: translateX(100%);
-            }
-            50% {
-                opacity: 1;
-                transform: translateX(-20px);
-            }
-                to {
-                opacity: 1;
-                transform: translateX(0);
-            }
         }
     `,
 

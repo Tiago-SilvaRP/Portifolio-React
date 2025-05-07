@@ -1,8 +1,8 @@
 import FotoPerfil from "../../assets/minhaFoto.png";
 import CV from '../../assets/cv.pdf';
-import { S } from "./sobreMim.styled";
+import { S } from "./aboutMe.styled";
 
-export const SobreMim = () => {
+export const AboutMe = () => {
 
     return (
         <S.Sobre>

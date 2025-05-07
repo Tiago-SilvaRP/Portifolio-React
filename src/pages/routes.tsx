@@ -1,9 +1,9 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { Inicio } from "./home"
-import { Sobre } from "./sobre"
-import { Header } from "../components/header/header"
-import { Footer } from "../components/footer/footer"
-import { Habilites } from "./habilidade"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Inicio } from "./home";
+import { Sobre } from "./sobre";
+import { Header } from "../components/header/header";
+import { Footer } from "../components/footer/footer";
+import { Habilidades } from "./habilidade";
 
 export const AppRoutes = () => {
     return (
@@ -12,7 +12,7 @@ export const AppRoutes = () => {
             <Routes>
                 <Route path="/" element={<Inicio />} />
                 <Route path="/sobre-mim" element={<Sobre />} />
-                <Route path="/habilidades" element={<Habilites />} />
+                <Route path="/habilidades" element={<Habilidades />} />
             </Routes>
             <Footer />
         </BrowserRouter>

@@ -1,7 +1,7 @@
-import { SobreMim } from "../components/sobre-mim/sobreMim"
+import { AboutMe } from "../components/about-Me/aboutMe"
 
 export const Sobre = () => {
     return (
-        <SobreMim />
+        <AboutMe />
     )
 }
