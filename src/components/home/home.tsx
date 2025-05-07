@@ -1,6 +1,6 @@
-import FotoPerfil from "../../assets/minhaFoto.png"
-import { ListIcons } from "../list-icons/list-icons"
-import { S } from "./home.style"
+import FotoPerfil from "../../assets/minhaFoto.png";
+import { ListIcons } from "../list-icons/list-icons";
+import { S } from "./home.style";
 
 export const Home = () => {
     return (

@@ -1,10 +1,10 @@
-import { useState } from "react"
-import { S } from "./header.style"
+import { useState } from "react";
+import { S } from "./header.style";
 import { useClickOutside } from "../hooks/useClickOutSide";
-import  CV  from '../../assets/cv.pdf'
+import  CV  from '../../assets/cv.pdf';
 
 export const Header: React.FC = () => {
-    const [menuAberto, setMenuAberto] = useState(false);
+    const [menuAberto, setMenuAberto] = useState<boolean>(false);
 
     const toggleMenu = () => setMenuAberto(!menuAberto);
     const fecharMenu = () => setMenuAberto(false);
@@ -18,7 +18,7 @@ export const Header: React.FC = () => {
 
     return (
         <S.HeaderContainer>
-            <S.Logo target="_blank" to={CV}>
+            <S.Logo target="_blank" rel="noopener noreferrer" to={CV}>
                 <h2>TS</h2>
             </S.Logo>
             <div ref={menuRef}>
