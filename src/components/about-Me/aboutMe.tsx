@@ -31,7 +31,7 @@ export const AboutMe = () => {
                         aprendi. 😁
                     </p>
                     <S.Botao>
-                    <S.Link to={CV} target="_blank">Veja meu CV</S.Link>
+                    <S.Link to={CV} target="_blank" rel="noopener noreferrer">Veja meu CV</S.Link>
                     </S.Botao>
                 </S.DivText>
             </S.Main>
