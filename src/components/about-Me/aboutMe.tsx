@@ -18,7 +18,8 @@ export const AboutMe = () => {
                 <S.DivText>
                     <p>
                         <strong>Olá! Me chamo Tiago Silva e sou um desenvolvedor frontend em formação, apaixonado por criar interfaces intuitivas e responsivas!</strong>
-                        Estou em um processo de transição profissional, trabalho como motorista a 10 anos sempre amei tecnologia atualmente estou cursando o Dev Quest que é um curso reconhecido pelo MEC e me proporcina mentoria e suporte, com isso evolui muito em pouco tempo, com um emprego dentro da area de tecnologia minha alavancagemem conhecimento será muito maior que vai me tornar um grande desenvolvedor.
+                        Atualmente, estou em transição de carreira após 10 anos atuando como motorista. Sempre fui fascinado por tecnologia e, hoje, estou realizando esse sonho por meio do curso DevQuest — uma formação reconhecida pelo MEC que oferece mentoria e suporte de qualidade.
+                        Em pouco tempo, já evoluí muito, e sei que, ao conquistar uma oportunidade na área de tecnologia, meu crescimento será ainda mais acelerado. Estou determinado a me tornar um grande desenvolvedor e contribuir com soluções que façam a diferença.
                     </p>
 
                     <p>
@@ -31,7 +32,7 @@ export const AboutMe = () => {
                         aprendi. 😁
                     </p>
                     <S.Botao>
-                    <S.Link to={CV} target="_blank" rel="noopener noreferrer">Veja meu CV</S.Link>
+                        <S.Link to={CV} target="_blank" rel="noopener noreferrer">Veja meu CV</S.Link>
                     </S.Botao>
                 </S.DivText>
             </S.Main>
