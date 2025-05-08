@@ -23,13 +23,11 @@ export const AboutMe = () => {
                     </p>
 
                     <p>
-                        Tenho uma forte atenção aos detalhes, priorizando acessibilidade, responsividade e um design visual atraente. Acredito que a tecnologia é uma ferramenta poderosa para resolver problemas e conectar pessoas, e estou sempre em busca de novos desafios para crescer como profissional.
+                        Tenho uma forte atenção aos detalhes, priorizando acessibilidade, responsividade e um design visual atraente. Acredito que a tecnologia é uma ferramenta poderosa para resolver problemas e conectar pessoas. Estou sempre em busca de novos desafios que me ajudem a evoluir como desenvolvedor e a causar um impacto positivo através do meu trabalho.
                     </p>
 
                     <p>
-                        Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar
-                        feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já
-                        aprendi. 😁
+                        Estou sempre me desafiando com novos projetos e participando de comunidades de programação, onde busco feedback de outros desenvolvedores e também compartilho o que já aprendi. Acredito que crescer em comunidade torna o aprendizado mais rico e significativo. 😁
                     </p>
                     <S.Botao>
                         <S.Link to={CV} target="_blank" rel="noopener noreferrer">Veja meu CV</S.Link>
