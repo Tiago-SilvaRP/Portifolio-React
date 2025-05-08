@@ -9,16 +9,8 @@ export const Home = () => {
                 <p>Olá, seja bem-vindo(a) ao meu portfólio! 👋</p>
                 <h1>Sou Tiago Silva</h1>
                 <h2>Desenvolvedor Frontend</h2>
-                <p>Aqui você encontra informações sobre mim, minhas habilidades, projetos e formas de contato.</p>
-                <p>Use o menu acima para navegar pelas seções do portfólio.</p>
-
-                <S.UlOption>
-                    <li>Home</li>
-                    <li>Sobre Mim</li>
-                    <li>Habilidades</li>
-                    <li>Projetos</li>
-                    <li>Contato</li>
-                </S.UlOption>
+                <p>Neste portfólio, compartilho um pouco da minha história, minhas habilidades em desenvolvimento frontend e os projetos que venho construindo.</p>
+                <p>Fique à vontade para explorar o menu acima e conhecer mais sobre quem sou, minhas habilidades, projetos e como podemos nos conectar.</p>
 
                 <ListIcons />
 

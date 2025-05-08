@@ -55,13 +55,6 @@ export const S = {
         }
     `,
 
-    UlOption: styled.ul`
-        display: flex;
-        font-weight: 600;
-        gap: 10px;
-        margin-bottom: 10px;
-    `,
-
     DivImag: styled.div`
         margin: 30px;
         max-width: 450px;
@@ -82,5 +75,5 @@ export const S = {
         max-width: 100%;
         border-radius: 50%;
         border: solid transparent 10px;  
-        `
+        `,
 }
