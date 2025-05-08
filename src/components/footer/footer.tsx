@@ -1,5 +1,6 @@
 import { ListIcons } from "../list-icons/list-icons";
 import { S } from "./footer.style";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
     return (
@@ -7,9 +8,9 @@ export const Footer = () => {
             <h3>Me envie uma mensagem</h3>
             <p>
                 Email:
-                <a href="mailto:tiagosilva_live_2016@outlook.com">
+                <Link to="mailto:tiagosilva_live_2016@outlook.com">
                     tiagosilva_live_2016@outlook.com
-                </a>
+                </Link>
             </p>
 
             <ListIcons />
