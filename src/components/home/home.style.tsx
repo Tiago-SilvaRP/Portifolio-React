@@ -19,6 +19,7 @@ export const S = {
         flex: 1;
         display: flex;
         background-color: #8dbce7;
+        // background-color:#1f2949;
         width: 100vw;
         justify-content: center;
         align-items: center;
@@ -57,7 +58,7 @@ export const S = {
 
     DivImag: styled.div`
         margin: 30px;
-        max-width: 450px;
+        max-width: 350px;
         background: radial-gradient(circle, #000, violet);
         border-radius: 50%;
         box-shadow: 3px 3px 3px;
@@ -65,7 +66,7 @@ export const S = {
     `,
 
     DivImgInner: styled.div`
-        width: 450px;
+        width: 350px;
         border-radius: 50%;
         box-shadow: inset 3px 3px 3px;
     `,
