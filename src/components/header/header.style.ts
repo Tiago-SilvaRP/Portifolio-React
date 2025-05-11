@@ -24,6 +24,7 @@ export const S = {
     Logo: styled(Link)`
         border: solid 1px;
         border-radius: 50%;
+        color: #000;
         padding: 5px;
 
         &:hover {

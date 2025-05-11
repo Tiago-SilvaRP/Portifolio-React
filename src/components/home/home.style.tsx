@@ -75,6 +75,6 @@ export const S = {
     Img: styled.img`
         max-width: 100%;
         border-radius: 50%;
-        border: solid transparent 10px;  
+        border: solid transparent 10px;
         `,
 }
