@@ -30,8 +30,8 @@ export const Projects = () => {
                     <S.Info>
                         <img src={projetoAtual.imagem} alt={`Imagem do projeto ${projetoAtual.titulo}`} />
                         <S.Details>
+                            <p>{projetoAtual.ferramentas}</p>
                             <p>{projetoAtual.descricao}</p>
-                            <p>{projetoAtual.informacao}</p>
 
                             <Link to={projetoAtual.repo} target="_blank" rel="noopener noreferrer">
                                 🔗 Ver repositório do projeto.
