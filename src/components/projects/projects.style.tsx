@@ -98,7 +98,7 @@ export const S = {
             align-items: center;
 
             img {
-                margin: 0;
+                margin: 0 0 15px;
                 max-width: 200px;
             }
         }
