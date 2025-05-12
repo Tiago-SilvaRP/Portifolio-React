@@ -54,6 +54,7 @@ export const S = {
             border-radius: 0 0 8px 8px;
             background: #141b30;
             transition: opacity 0.3s ease-in-out, visibility 0s 0.3s;
+            z-index: 999;
         }
     `,
 
