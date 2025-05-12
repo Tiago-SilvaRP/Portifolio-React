@@ -27,8 +27,8 @@ export const Header: React.FC = () => {
                         <li><S.Ancora to="/" >Inicio</S.Ancora></li>
                         <li><S.Ancora to="/sobre-mim">Sobre Mim</S.Ancora></li>
                         <li><S.Ancora to='/habilidades' >Habilidades</S.Ancora></li>
-                        <li><S.Ancora to="projetos">Projetos</S.Ancora></li>
-                        <li><S.Ancora to="contatos" >Contato</S.Ancora></li>
+                        <li><S.Ancora to="/projetos">Projetos</S.Ancora></li>
+                        <li><S.Ancora to="/contato" >Contato</S.Ancora></li>
                     </S.Ul>
                 </S.Nav>
 
