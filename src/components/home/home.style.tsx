@@ -32,6 +32,11 @@ export const S = {
         justify-content: center;
         align-items: center;
         color:  #afb6c5;
+
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+        }
     `,
 
     TextoHome: styled.div`
@@ -76,8 +81,11 @@ export const S = {
 
     DivImgInner: styled.div`
         width: 350px;
-    `,
 
+        @media (max-width: 768px) {
+            max-width: 270px;
+        }
+    `,
 
     Img: styled.img`
         max-width: 100%;
