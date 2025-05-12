@@ -12,11 +12,6 @@ export const S = {
         background: #141b30;
         gap: 15px;
         color: #6cb4ff;
-
-
-        p {
-            font-size: 19px;
-        }
     `,
 
     StyledLink: styled(Link)`
