@@ -20,9 +20,9 @@ export const Projects = () => {
         <S.ContainerSlide>
             <h2>Projetos</h2>
             <S.Carrossel>
-            <Button onClick={back}>
-                <S.ImgSetaVoltar src={Seta}/>
-            </Button>
+                <Button onClick={back}>
+                    <S.ImgSetaVoltar src={Seta} />
+                </Button>
 
                 <S.ContainerProject>
                     <h3>{projetoAtual.titulo}</h3>
@@ -41,7 +41,7 @@ export const Projects = () => {
                     </S.Info>
                 </S.ContainerProject>
                 <Button onClick={next}>
-                    <img src={Seta}/>
+                    <img src={Seta} />
                 </Button>
             </S.Carrossel>
         </S.ContainerSlide>

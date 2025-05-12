@@ -30,6 +30,8 @@ export const S = {
     display: flex;
     align-items: center;
     gap: 20px;
+    justify-content: center;;
+    position: relative;
 
     button {
         font-size: 2rem;
@@ -42,6 +44,24 @@ export const S = {
             transform: scale(1.2);
         }
     }
+
+        @media (max-width: 786px) {
+            flex-direction: column;
+            gap: 10px;
+
+            button:first-of-type {
+                position: absolute;
+                bottom: 0;
+                left: 20%;
+                margin-bottom: 10px;
+            } 
+
+            button:last-of-type {
+                margin-left: 40%;
+                margin-bottom: 10px;
+            }
+        }
+
 `,
 
     ContainerProject: styled.div`
@@ -64,9 +84,27 @@ export const S = {
         p {
             max-width: 280px;
         }
+
+        @media (max-width: 400px) {
+            margin: 0 20px 20px;
+        }
     `,
     Info: styled.div`
         display: flex;
+
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                margin: 0;
+                max-width: 200px;
+            }
+        }
+
+
     `,
     Details: styled.div`
         display: flex;

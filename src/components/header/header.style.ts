@@ -10,6 +10,16 @@ interface ToogleProps {
     $open: boolean;
 }
 
+export const styleHover = `
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #2b3a6b;
+        color: #80d1ff;
+        box-shadow: 0 0 10px #6cb4ff;
+    }
+`;
+
 export const S = {
     HeaderContainer: styled.header`
         display: flex;
@@ -27,10 +37,7 @@ export const S = {
         border-radius: 50%;
         padding: 5px;
         color: #6cb4ff;
-
-        &:hover {
-            transition: 0.3s ease-in-out;
-            color: red;
+        ${styleHover}
         }
     `,
 
@@ -66,7 +73,7 @@ export const S = {
 
         &:hover {
             transition: 0.3s ease-in-out;
-            color:red;
+            ${styleHover}
         }
     `,
 
