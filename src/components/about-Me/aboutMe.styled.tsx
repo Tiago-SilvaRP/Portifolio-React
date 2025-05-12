@@ -4,7 +4,8 @@ import { LeftTextInput, RightTextInput } from "../animations/animations.style";
 
 export const S = {
     Sobre: styled.section`
-    background: #8dbce7;
+    background: #1f2949;
+    color: #afb6c5;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -27,7 +28,7 @@ export const S = {
 
     ImgOuter: styled.div`
         max-width: 450px;
-        box-shadow: 3px 3px 3px;
+        box-shadow: #6cb4ff 3px 3px 3px;
         border-radius: 10px;
         margin-right: 30px;
         height: auto;
@@ -35,15 +36,15 @@ export const S = {
     `,
 
     ImgInner: styled.div`
-        box-shadow: inset 3px 3px 3px;
+        box-shadow: #6cb4ff inset 3px 3px 3px;
         border-radius: 10px;
         padding: 10px;
 
         img {
             width: 100%;
-            box-shadow: inset 3px 3px 3px, 3px 3px 3px;
+            box-shadow: #6cb4ff inset 3px 3px 3px, #6cb4ff 3px 3px 3px;
             border-radius: 10px;
-            background: radial-gradient(circle, #000, violet);
+            background: radial-gradient(circle, #000, #1f2949);
         }
     `,
 

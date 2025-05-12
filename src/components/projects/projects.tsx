@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { S } from "./projects.style";
 import { useState } from "react";
 import { ListaProjetos } from "../dataProject/dataProject";
@@ -33,11 +32,11 @@ export const Projects = () => {
                             <p>{projetoAtual.ferramentas}</p>
                             <p>{projetoAtual.descricao}</p>
 
-                            <Link to={projetoAtual.repo} target="_blank" rel="noopener noreferrer">
+                            <S.StykedLink to={projetoAtual.repo} target="_blank" rel="noopener noreferrer">
                                 🔗 Ver repositório do projeto.
-                            </Link>
-                            <Link to={projetoAtual.demo} target="_blank" rel="noopener noreferrer">
-                                🔗 Ver projeto no GitHub pages.</Link>
+                            </S.StykedLink>
+                            <S.StykedLink to={projetoAtual.demo} target="_blank" rel="noopener noreferrer">
+                                🔗 Ver projeto no GitHub pages.</S.StykedLink>
                         </S.Details>
                     </S.Info>
                 </S.ContainerProject>

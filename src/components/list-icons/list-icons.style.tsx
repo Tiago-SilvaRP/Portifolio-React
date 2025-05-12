@@ -8,6 +8,7 @@ export const S = {
     `,
     IconLink: styled(Link)`
         font-size: 30px;
+        color:#6cb4ff;
     `,
 }
 

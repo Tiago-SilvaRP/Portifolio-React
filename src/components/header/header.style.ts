@@ -18,16 +18,18 @@ export const S = {
         background-color: gray;
         padding: 15px;
         position: relative;
-        padding: 15px 18%;
+        padding: 15px 8%;
+        background: #141b30;
     `,
 
     Logo: styled(Link)`
         border: solid 1px;
         border-radius: 50%;
-        color: #000;
         padding: 5px;
+        color: #6cb4ff;
 
         &:hover {
+            transition: 0.3s ease-in-out;
             color: red;
         }
     `,
@@ -43,12 +45,8 @@ export const S = {
             right: 15px;
             padding: 15px;
             border-radius: 0 0 8px 8px;
-            background-color: gray;
+            background: #141b30;
             transition: opacity 0.3s ease-in-out, visibility 0s 0.3s;
-        }
-
-        @media (min-width: 769px) {
-            display: block;
         }
     `,
 
@@ -63,10 +61,11 @@ export const S = {
     `,
 
     Ancora: styled(Link)`
-        color: #000;
+        color: #6cb4ff;
         display: flex;
 
         &:hover {
+            transition: 0.3s ease-in-out;
             color:red;
         }
     `,
@@ -90,7 +89,7 @@ export const S = {
     Span: styled.span<ToogleProps>`
         width: 100%;
         height: 3px;
-        background-color: #000;
+        background-color: #6cb4ff;
         border-radius: 2px;
         transition: 0.3s ease-in-out;
 
