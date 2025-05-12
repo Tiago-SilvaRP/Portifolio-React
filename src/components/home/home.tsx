@@ -10,7 +10,7 @@ export const Home = () => {
                 <h1>Sou Tiago Silva</h1>
                 <h2>Desenvolvedor Frontend</h2>
                 <p>Neste portfólio, compartilho um pouco da minha história, minhas habilidades em desenvolvimento frontend e os projetos que venho construindo.</p>
-                <p>Fique à vontade para explorar o menu acima e conhecer mais sobre quem sou, minhas habilidades, projetos e como podemos nos conectar.</p>
+                <p>Fique à vontade para explorar o menu acima e conhecer mais sobre quem sou, minhas habilidades e projetos. Para entrar em contato, utilize os ícones no rodapé ou aqui mesmo na seção Home.</p>
 
                 <ListIcons />
 

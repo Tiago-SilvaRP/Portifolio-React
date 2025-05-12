@@ -69,8 +69,8 @@ export const S = {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: rgb(179, 175, 175);;
-        box-shadow: rgb(231, 27, 27) 0px 5px 15px;
+        background: #b3afaf;;
+        box-shadow: #e71b1b 0px 5px 15px;
         border-radius: 15px;
         margin-bottom: 30px;
 
@@ -103,9 +103,8 @@ export const S = {
                 max-width: 200px;
             }
         }
-
-
     `,
+    
     Details: styled.div`
         display: flex;
         flex-direction: column;
@@ -116,5 +115,10 @@ export const S = {
 
     StykedLink: styled(Link)`
         color: #1f2949;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: #e71b1b;
+        }
     `,
 }
