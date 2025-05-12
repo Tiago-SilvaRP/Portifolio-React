@@ -21,7 +21,7 @@ export const S = {
             display: flex;
             align-items: center;
             font-size: 14px;
-            margin: 10px 0 30px;
+            margin: 10px 30px 30px;
             animation: ${LeftTextInput} 1.8s ease-in-out;
         }
 
@@ -45,6 +45,11 @@ export const S = {
         background:rgb(179, 175, 175);
         box-shadow: rgb(231, 27, 27) 0px 5px 15px;
 
+        @media (max-width: 768px) {
+            margin: 0 20px;
+            padding: 10px;
+        }
+
         li {
             display:flex;
             padding: 8px;
@@ -60,6 +65,17 @@ export const S = {
                 transform: scale(1.3);
                 transition: transform 0.3s ease-in-out;
             }
+
+            @media (max-width: 543px) {
+                margin: 8px;
+            }
+
+            @media (max-width: 360px) {
+                font-size: 35px;
+                margin: 8px;
+                padding: 10px;
+            }
         }
+
     `,
 }
