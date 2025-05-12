@@ -24,27 +24,37 @@ export const S = {
         display: flex;
         margin: 50px;
         max-width: 1280px;
+
+        @media (max-width: 901px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
     `,
 
     ImgOuter: styled.div`
         max-width: 450px;
-        box-shadow: #6cb4ff 3px 3px 3px;
+        box-shadow: #6cb4ff 3px 3px 13px;
         border-radius: 10px;
         margin-right: 30px;
-        height: auto;
+        height: fit-content;
 
+        @media (max-width: 901px) {
+            max-width: 240px;
+            margin-bottom: 30px;
+        }
     `,
 
     ImgInner: styled.div`
-        box-shadow: #6cb4ff inset 3px 3px 3px;
+        box-shadow: #6cb4ff inset 3px 3px 8px;
         border-radius: 10px;
         padding: 10px;
 
         img {
             width: 100%;
-            box-shadow: #6cb4ff inset 3px 3px 3px, #6cb4ff 3px 3px 3px;
-            border-radius: 10px;
             background: radial-gradient(circle, #000, #1f2949);
+
+            
         }
     `,
 
@@ -66,11 +76,12 @@ export const S = {
         padding: 10px 20px;
         border-radius: 20px;
         transition: all .3s ease;
-        background: gray;
-        box-shadow: 3px 3px 3px rgb(10, 97, 179), -3px -3px 3px rgb(90, 94, 99);
+        color: #afb6c5;
+        background: #5a5e63;
+        box-shadow: 3px 3px 3px #0a61b3, -3px -3px 3px #5a5e63;
 
         &:hover {
-        background: rgb(10, 97, 179);
+        background: #0a61b3;
         }
     `,
 }
