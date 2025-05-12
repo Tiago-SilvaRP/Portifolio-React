@@ -15,5 +15,7 @@ export const GlobalStyle = createGlobalStyle`
         flex-direction: column;
     }
 
-    
+    body {
+        font-family: "Poppins", sans serif;
+    }
 `

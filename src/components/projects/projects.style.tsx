@@ -18,7 +18,6 @@ export const S = {
         h2 {
             margin: 20px 0;
             color: #6cb4ff;
-        
         }
 
         h3 {
@@ -34,11 +33,10 @@ export const S = {
     position: relative;
 
     button {
-        font-size: 2rem;
         background: none;
         border: none;
         cursor: pointer;
-        transition: 0.3s;
+        transition: 0.3s ease-in-out;
 
         &:hover {
             transform: scale(1.2);
@@ -83,6 +81,7 @@ export const S = {
 
         p {
             max-width: 280px;
+            font-size: 14px;
         }
 
         @media (max-width: 400px) {
@@ -109,7 +108,7 @@ export const S = {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 30px;
+        margin:  0 30px 30px;
         gap: 15px;
     `,
 

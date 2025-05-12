@@ -33,10 +33,10 @@ export const Projects = () => {
                             <p>{projetoAtual.descricao}</p>
 
                             <S.StykedLink to={projetoAtual.repo} target="_blank" rel="noopener noreferrer">
-                                🔗 Ver repositório do projeto.
+                                <strong>🔗 Ver repositório do projeto.</strong>
                             </S.StykedLink>
                             <S.StykedLink to={projetoAtual.demo} target="_blank" rel="noopener noreferrer">
-                                🔗 Ver projeto no GitHub pages.</S.StykedLink>
+                                <strong>🔗 Ver projeto no GitHub pages.</strong></S.StykedLink>
                         </S.Details>
                     </S.Info>
                 </S.ContainerProject>
