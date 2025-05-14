@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { S } from "./header.style";
-import { useClickOutside } from "../hooks/useClickOutSide";
+import { useClickOutSide } from "../hooks/useClickOutSide";
 import CV from '../../assets/cv.pdf';
 
-export const Header: React.FC = () => {
+export const Header = () => {
     const [menuAberto, setMenuAberto] = useState<boolean>(false);
 
     const toggleMenu = () => setMenuAberto(!menuAberto);
     const fecharMenu = () => setMenuAberto(false);
-    const menuRef = useClickOutside<HTMLDivElement>(fecharMenu);
+    const menuRef = useClickOutSide<HTMLDivElement>(fecharMenu);
 
     const handleItemClick = () => {
         if (menuAberto) {

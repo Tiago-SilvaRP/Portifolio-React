@@ -1,21 +1,21 @@
 import { useEffect, useRef } from "react";
 
-export const useClickOutside = <T extends HTMLElement>(
-    onClickFora: () => void) => {
+export const useClickOutSide = <T extends HTMLElement>(
+    backMenu: () => void) => {
     const ref = useRef<T | null>(null);
 
     useEffect(() => {
-        const handleClickOutside = (event: MouseEvent) => {
+        const handleClickOutSide = (event: MouseEvent) => {
             if (ref.current && !ref.current.contains(event.target as Node)) {
-                onClickFora();
+                backMenu();
             }
         }
 
-        document.addEventListener("mousedown", handleClickOutside);
+        document.addEventListener("mousedown", handleClickOutSide);
         return () => {
-            document.removeEventListener("mousedown", handleClickOutside);
+            document.removeEventListener("mousedown", handleClickOutSide);
         };
-    }, [onClickFora]);
+    }, [backMenu]);
 
     return ref;
 }
