@@ -23,6 +23,10 @@ export const S = {
             font-size: 14px;
             margin: 10px 30px 30px;
             animation: ${LeftTextInput} 1.8s ease-in-out;
+
+            @media(max-width: 768px) {
+                display: none;
+            }
         }
 
         h2 {

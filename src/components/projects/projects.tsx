@@ -22,7 +22,7 @@ export const Projects = () => {
         }
 
         document.addEventListener("keydown", handleKeyDown);
-        return () => document.removeEventListener("keydown", handleKeyDown)
+        return () => document.removeEventListener("keydown", handleKeyDown);
     }, []);
     
     const projetoAtual = ListaProjetos[index];
