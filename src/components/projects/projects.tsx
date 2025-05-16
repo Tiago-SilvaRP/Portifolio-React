@@ -1,5 +1,5 @@
 import { S } from "./projects.style";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ListaProjetos } from "../dataProject/dataProject";
 import { Button } from "../button/button";
 import Seta from "../../assets/imagemSeta.png";
@@ -7,14 +7,24 @@ import Seta from "../../assets/imagemSeta.png";
 
 export const Projects = () => {
     const [index, setIndex] = useState(0);
-
+    
     const back = () => {
-        setIndex((current) => (current - 1 + ListaProjetos.length) % ListaProjetos.length)
+        setIndex((current) => (current - 1 + ListaProjetos.length) % ListaProjetos.length);
     }
     const next = () => {
-        setIndex((current) => (current + 1) % ListaProjetos.length)
+        setIndex((current) => (current + 1) % ListaProjetos.length);
     }
+    
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "ArrowRight") return next();
+            if (e.key === "ArrowLeft") return back();
+        }
 
+        document.addEventListener("keydown", handleKeyDown);
+        return () => document.removeEventListener("keydown", handleKeyDown)
+    }, []);
+    
     const projetoAtual = ListaProjetos[index];
     return (
         <S.ContainerSlide>
