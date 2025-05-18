@@ -15,7 +15,7 @@ export const S = {
     h2 {
         text-align: center;
         margin-top: 30px;
-        animation: ${LeftTextInput} 1.5s ease-in-out;
+        animation: ${LeftTextInput} 1.5s ease-out;
 
     }
     `,

@@ -47,7 +47,7 @@ export const S = {
         margin: 20px;
         padding: 20px;
         text-align: center;
-        animation: ${LeftTextInput} 1.5s ease-in-out;
+        animation: ${LeftTextInput} 1.5s ease-out;
 
         p {
             font-size: 18px;
