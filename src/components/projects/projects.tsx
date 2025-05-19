@@ -1,6 +1,6 @@
 import { S } from "./projects.style";
 import { useEffect, useState } from "react";
-import { ListaProjetos } from "../dataProject/dataProject";
+import { ListaProjetos } from "../../dataProject/dataProject";
 import { Button } from "../button/button";
 import Seta from "../../assets/imagemSeta.png";
 

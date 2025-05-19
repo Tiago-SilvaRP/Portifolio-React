@@ -1,7 +1,7 @@
-import AppTempo from "../../assets/previsao-tempo.gif";
-import Pokemon from "../../assets/gif.gif";
-import Formulario from "../../assets/formulario.png";
-import FetchGitHub from "../../assets/gif.projeto-Fetch-GitHub.gif";
+import AppTempo from "../assets/previsao-tempo.gif";
+import Pokemon from "../assets/gif.gif";
+import Formulario from "../assets/formulario.png";
+import FetchGitHub from "../assets/gif.projeto-Fetch-GitHub.gif";
 
 export const ListaProjetos = [
     {
