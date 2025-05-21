@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const S = {
@@ -13,11 +12,4 @@ export const S = {
         gap: 15px;
         color: #6cb4ff;
     `,
-
-    StyledLink: styled(Link)`
-        margin-left: 10px;
-        color: #d3d7e0;
-    `,
-
-
 }
