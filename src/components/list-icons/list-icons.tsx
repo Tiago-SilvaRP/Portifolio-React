@@ -4,7 +4,7 @@ export const ListIcons = () => {
     return (
         <S.UlIcons>
             <li>
-                <S.IconLink to="mailto:tiagosilva_live_2016@outlook.com" target="_blanck" rel="noopener noreferrer"><S.TfiEmail /></S.IconLink>
+                <S.IconLink to="mailto:tiagosilva_developerweb@outlook.com" target="_blanck" rel="noopener noreferrer"><S.TfiEmail /></S.IconLink>
             </li>
             <li>
                 <S.IconLink to="https://wa.me/5516992861134" rel="noopener noreferrer" target="_blank"><S.FaWhatsapp /></S.IconLink>
