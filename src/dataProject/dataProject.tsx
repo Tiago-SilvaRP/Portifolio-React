@@ -13,20 +13,20 @@ export const ListaProjetos = [
         demo: "https://tiago-silvarp.github.io/App-previsao-do-tempo/",
     },
     {
-        titulo: "Pokemon",
-        ferramentas: "Projeto feito com HTML, CSS, JS, consumo de API, React, Vite e Context-api.",
-        descricao: "O usuário pode carregar mais Pokémons clicando no botão ao fim da lista. Ao clicar em um card de Pokémon, é redirecionado para uma página de detalhes. Nessa view, é possível voltar para a home clicando no ícone ou no texto 'Home'. Também há suporte à troca de tema (claro/escuro).",
-        imagem: Pokemon,
-        repo: "https://github.com/Tiago-SilvaRP/pokemon-react",
-        demo: "https://pokemon-react-snowy-omega.vercel.app/",
-    },
-    {
         titulo: "Formulário de validação",
         ferramentas: "Projeto feito com HTML, CSS e JavaScript.",
         descricao: "Realiza a validação do formulário, exibindo mensagens de erro quando os campos são preenchidos incorretamente e alertas de sucesso quando o preenchimento está correto.",
         imagem: Formulario,
         repo: "https://github.com/Tiago-SilvaRP/formularioDeValidacao",
         demo: "https://tiago-silvarp.github.io/formularioDeValidacao/",
+    },
+    {
+        titulo: "Pokemon",
+        ferramentas: "Projeto feito com HTML, CSS, JS, consumo de API, React, Vite e Context-api.",
+        descricao: "O usuário pode carregar mais Pokémons clicando no botão ao fim da lista. Ao clicar em um card de Pokémon, é redirecionado para uma página de detalhes. Nessa view, é possível voltar para a home clicando no ícone ou no texto 'Home'. Também há suporte à troca de tema (claro/escuro).",
+        imagem: Pokemon,
+        repo: "https://github.com/Tiago-SilvaRP/pokemon-react",
+        demo: "https://pokemon-react-snowy-omega.vercel.app/",
     },
     {
         titulo: "API Fetch GitHub",

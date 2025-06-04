@@ -4,7 +4,6 @@ import { ListaProjetos } from "../../dataProject/dataProject";
 import { Button } from "../button/button";
 import Seta from "../../assets/imagemSeta.png";
 
-
 export const Projects = () => {
     const [index, setIndex] = useState(0);
     
