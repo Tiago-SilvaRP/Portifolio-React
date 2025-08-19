@@ -18,12 +18,11 @@ export const AboutMe = () => {
                 <S.DivText>
                     <p>
                         <strong>Olá! Me chamo Tiago Silva e sou um desenvolvedor frontend em formação, apaixonado por criar interfaces intuitivas e responsivas!</strong>
-                        Atualmente, estou em transição de carreira após 10 anos atuando como motorista. Sempre fui fascinado por tecnologia e, hoje, estou realizando esse sonho por meio do curso DevQuest — uma formação reconhecida pelo MEC que oferece mentoria e suporte de qualidade.
-                        Em pouco tempo, já evoluí muito, e sei que, ao conquistar uma oportunidade na área de tecnologia, meu crescimento será ainda mais acelerado. Estou determinado a me tornar um grande desenvolvedor e contribuir com soluções que façam a diferença.
+                        Sempre fui fascinado por tecnologia e, hoje, estou realizando esse sonho por meio do curso DevQuest — uma formação reconhecida pelo MEC que oferece mentoria e suporte de qualidade.
                     </p>
 
                     <p>
-                        Tenho uma forte atenção aos detalhes, priorizando acessibilidade, responsividade e um design visual atraente. Acredito que a tecnologia é uma ferramenta poderosa para resolver problemas e conectar pessoas. Estou sempre em busca de novos desafios que me ajudem a evoluir como desenvolvedor e a causar um impacto positivo através do meu trabalho.
+                        Tenho experiência em projetos pessoais, nos quais pude aplicar e aprimorar meus conhecimentos em desenvolvimento. Neles, trabalhei conceitos de acessibilidade, responsividade e design visual, sempre buscando entregar interfaces funcionais e bem estruturadas. Esses projetos me permitiram evoluir como desenvolvedor e reforçaram minha motivação em criar soluções que realmente façam diferença.
                     </p>
 
                     <p>
