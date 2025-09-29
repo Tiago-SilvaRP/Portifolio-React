@@ -1,24 +1,24 @@
 import AppTempo from "../assets/previsao-tempo.gif";
 import Pokemon from "../assets/gif.gif";
-import Formulario from "../assets/formulario.png";
 import FetchGitHub from "../assets/gif.projeto-Fetch-GitHub.gif";
+import Ecomerce from "../assets/e-comerce-doce.png";
 
 export const ListaProjetos = [
     {
         titulo: "Previsão do tempo",
         ferramentas: "Projeto feito com HTML, CSS, JavaScript e com consumo de API",
-        descricao: "Projeto simples em que o usuário digita o nome de uma cidade e faz a busca clicando no ícone de lupa. A aplicação retorna o nome da cidade, temperatura em graus Celsius, ícone representando a condição climática, além de exibir a umidade do ar e a velocidade do vento em km/h.",
+        descricao: "Aplicação de clima onde o usuário busca uma cidade e recebe informações em tempo real: temperatura em °C, condição climática com ícone ilustrativo, umidade do ar e velocidade do vento.",
         imagem: AppTempo,
         repo: "https://github.com/Tiago-SilvaRP/App-previsao-do-tempo",
         demo: "https://tiago-silvarp.github.io/App-previsao-do-tempo/",
     },
     {
-        titulo: "Formulário de validação",
-        ferramentas: "Projeto feito com HTML, CSS e JavaScript.",
-        descricao: "Realiza a validação do formulário, exibindo mensagens de erro quando os campos são preenchidos incorretamente e alertas de sucesso quando o preenchimento está correto.",
-        imagem: Formulario,
-        repo: "https://github.com/Tiago-SilvaRP/formularioDeValidacao",
-        demo: "https://tiago-silvarp.github.io/formularioDeValidacao/",
+        titulo: "E-comerce-doce",
+        ferramentas: "HTML, CSS e JavaScript",
+        descricao: "Loja de sobremesas com carrinho de compras em HTML, CSS e JavaScript puro. Permite adicionar, atualizar e remover itens, finalizar compras e mantém o estado no localStorage. O site é totalmente responsivo.",
+        imagem: Ecomerce,
+        repo: "https://github.com/Tiago-SilvaRP/e-comerce-doces",
+        demo:  "https://tiago-silvarp.github.io/e-comerce-doces/",
     },
     {
         titulo: "Pokemon",
@@ -31,7 +31,7 @@ export const ListaProjetos = [
     {
         titulo: "API Fetch GitHub",
         ferramentas: "Projeto feito com HTML, CSS, JavaScript e consumo de API",
-        descricao: "Exibe a imagem de perfil, nome completo, login, biografia, número de seguidores e de usuários seguidos. Caso o campo de busca esteja vazio, um alerta é exibido na tela. Se o usuário não for encontrado, é apresentada a mensagem: 'Usuário não encontrado'. Também apresenta uma lista com os 10 últimos eventos públicos do usuário no GitHub, dos tipos PushEvent e CreateEvent. Para cada PushEvent, são exibidos o nome do repositório e a mensagem do commit. Já para eventos do tipo CreateEvent, é exibida a mensagem: 'Sem mensagem de commit'.",
+        descricao: "Exibe perfil do usuário do GitHub (imagem, nome, login, bio, seguidores e seguindo). Mostra os 10 últimos eventos públicos (PushEvent e CreateEvent). Em PushEvent, exibe repositório e mensagem do commit; em CreateEvent, mostra 'Sem mensagem de commit'. Inclui alertas para busca vazia e usuário não encontrado.",
         imagem: FetchGitHub,
         repo: "https://github.com/Tiago-SilvaRP/Projeto--Fetch-GitHub",
         demo: "https://tiago-silvarp.github.io/Projeto--Fetch-GitHub/",
